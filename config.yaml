@@ -59,3 +59,12 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+    
+  - id: aria2-ququ-nathan21hz-cc
+    name: Aria2-Ququ
+    description: 'Remote download service for ququ' # default=empty
+    url: 'https://aria2-ququ.nathan21hz.cc/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
