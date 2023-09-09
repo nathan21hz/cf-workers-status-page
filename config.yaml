@@ -24,15 +24,6 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: bus-nathan21hz-cc
-    name: Bus
-    description: 'Convenient bus status page' # default=empty
-    url: 'https://bus.nathan21hz.cc/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
   - id: gallery-nathan21hz-cc
     name: Gallery
     description: 'Photography gallery' # default=empty
